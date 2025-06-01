@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1742952104,
+	"version": 1748756300,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -22,6 +22,7 @@
 		"images/targetchoice-sheet0.png",
 		"images/strike-sheet0.png",
 		"images/combatzoneunclipper.png",
+		"images/battlebackground-sheet0.png",
 		"images/sanshead-sheet0.png",
 		"images/sansbody-sheet0.png",
 		"images/sansbody-sheet1.png",
@@ -74,7 +75,11 @@
 		"media/playerheal.ogg",
 		"media/gasterblast2.ogg",
 		"media/intro.ogg",
+		"media/damage.ogg",
+		"media/shrekspeak.ogg",
+		"media/megalostart.ogg",
 		"media/mus_zz_megalovania.ogg",
+		"media/mus_x_james.ogg",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",

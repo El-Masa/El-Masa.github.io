@@ -1,5 +1,5 @@
 0,SansHead,NoEyes,,,,,,,
-0,SansText,I'll only let you get hit once during this attack.,,,,,,,
+0,SansText,I'll only let you get through this attack with more than 50 HP.,,,,,,,
 0,CombatZoneResize,241,226,406,391,,,,
 0,HeartTeleport,320,304,,,,,,
 0,HeartMode,0,,,,,,,
@@ -35,7 +35,7 @@
 0,CombatZoneSpeed,900,,,,,,,
 0,CombatZoneResize,241,226,650,391,,,,
 0.33333,HeartMaxFallSpeed,-300,,,,,,,
-0,SansAnimation,Tired,,,,,,,
+0,SansAnimation,Idle,,,,,,,
 0,SansRepeat,,,,,,,,
 0,CombatZoneResize,-10,226,650,391,,,,
 0.3,CombatZoneSpeed,30,,,,,,,
@@ -108,7 +108,7 @@
 0,CombatZoneResizeInstant,239,226,404,391,,,,
 0,HeartTeleport,320,376,,,,,,
 0,HeartMode,1,,,,,,,
-0,SansAnimation,Tired,,,,,,,
+0,SansAnimation,Idle,,,,,,,
 0.03333,GasterBlaster,1,0,0,189,246,0,0.1,0.2
 0,GasterBlaster,1,640,480,449,366,180,0.1,0.2
 1.4,BlackScreen,1,,,,,,,
@@ -325,7 +325,7 @@
 0,ADD,gin,$gin,0.015,,,,,
 0.06666,JMPL,310,$gt,190,,,,,
 0,SansText,YOU DESERVE THIS.,,,,,,,
-0,BoneStab,1,999,0,2,,,,
+0,BoneStab,1,999,0,1.5,,,,
 2.5,SansHead,NoEyes,,,,,,,
 0,SansText,Wha-,,,,,,,
 0,SansHead,Default,,,,,,,
