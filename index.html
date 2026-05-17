@@ -1,28 +1,6 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<script>
-    (function() {
-        const targetFPS = 30;
-        const frameInterval = 1000 / targetFPS;
-        let lastFrameTime = performance.now();
-        const nativeRAF = window.requestAnimationFrame;
-
-        // Force browser rendering cycle to skip frames to hit 30 FPS target
-        window.requestAnimationFrame = function(callback) {
-            function loopFilter(timestamp) {
-                const elapsed = timestamp - lastFrameTime;
-                if (elapsed >= frameInterval) {
-                    lastFrameTime = timestamp - (elapsed % frameInterval);
-                    callback(timestamp);
-                } else {
-                    nativeRAF(loopFilter);
-                }
-            }
-            return nativeRAF(loopFilter);
-        };
-    })();
-</script>
     <meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<title>RO-VENGE Simulator (James Fight)</title>
